@@ -1,5 +1,5 @@
 const fs = require('fs')
-const{ join} = fs
+const{ join} = require('path')
 
 const filePath = join(__dirname, 'user.json')
 
